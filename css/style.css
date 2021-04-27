@@ -1,0 +1,51 @@
+<style>
+    div
+    {
+   
+    }
+    #ust
+    {
+        width: 100%;
+        height: 180px;
+        background-color: black;
+    }
+    #ask
+    {
+        margin: 0 77%;
+      width: 250px;
+      height: 180px;
+    }
+   
+    a
+    {
+        text-decoration: none;
+        color: royalblue;
+    }
+    #baslik
+    {
+        text-align: center;
+        width: 70%;
+        float: right;
+    }
+   
+    #iletisim
+    {
+        width: 70%;
+        float: right;
+        text-align: center;
+    }
+    #links
+    {
+        float: left;
+        width: 30%;
+        text-align: center;
+    }
+    #free
+    {
+        width: 30%;
+        height: auto;
+        float: left;
+    }
+   
+
+</style>
