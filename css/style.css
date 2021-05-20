@@ -3,49 +3,99 @@
     {
    
     }
-    #ust
+   
+    .ust
     {
         width: 100%;
-        height: 180px;
+        background-color: black;
+    }
+    #ustbos
+    {
         background-color: black;
     }
     #ask
     {
-        margin: 0 77%;
-      width: 250px;
-      height: 180px;
+        margin: auto auto;
+     
+    }
+    .body
+    {
+        background-color: gray;
     }
    
     a
     {
         text-decoration: none;
         color: royalblue;
+        margin: auto;
     }
     #baslik
     {
         text-align: center;
-        width: 70%;
-        float: right;
+        width: 100%;
+        background-color:black;
     }
    
     #iletisim
     {
-        width: 70%;
-        float: right;
+        width: 100%;
         text-align: center;
+    }
+    .backlink
+    {
+        background-color: black;
     }
     #links
     {
-        float: left;
-        width: 30%;
+        width: 100%;
         text-align: center;
     }
-    #free
+    #divtarihce
     {
-        width: 30%;
-        height: auto;
+        width: 100%;
         float: left;
     }
+    
+    #arayazi1
+    {
+        width: 100%;
+        float: left;
+    }
+    .genelyazi
+    {
+        font-size: 13pt;
+        text-align: center;
+    }
+    .yanbaslik
+    {
+        font-size: 16pt;
+        color: rgb(48, 20, 124);
+        margin-left: 10px; margin-right: auto; margin-top: 25px; margin-bottom: 5px;
+    }
+    #divsag
+    {
+        width: 100%; float: right;
+    }
+    #divresim
+    {
+        width: 100%;
+    }
+    #inonu
+    {
+        width: 40%;
+        margin-left: 30%; margin-right: 30%;
+        height: 250px;
+    }
+    #slider
+    {
+        width: 800px;
+        height: 600px;
+    }
+    #center
+    {
+        text-align: center;
+    }
+    
    
 
 </style>
