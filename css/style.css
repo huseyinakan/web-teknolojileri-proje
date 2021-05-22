@@ -4,7 +4,7 @@
    
     }
    
-    .ust
+    #ust
     {
         width: 100%;
         background-color: black;
@@ -22,11 +22,15 @@
     {
         background-color: gray;
     }
+    #bodyteam
+    {
+        background-color: rgb(204, 204, 204);
+    }
    
     a
-    {
+    { 
         text-decoration: none;
-        color: royalblue;
+        color:royalblue;
         margin: auto;
     }
     #baslik
@@ -36,20 +40,50 @@
         background-color:black;
     }
    
+    
     #iletisim
     {
         width: 100%;
         text-align: center;
     }
-    .backlink
+    #backlink
     {
-        background-color: black;
+        background-color:lightsteelblue;
     }
     #links
     {
         width: 100%;
         text-align: center;
     }
+    #bosluk
+    {
+        background-color: gray;
+        color: gray;
+    }
+    #beyaz
+    {
+        background-color: rgb(204, 204, 204);
+        color: rgb(204, 204, 204);
+    }
+   
+    #paragilk
+    {
+        color:darkgreen;
+        font-size: 15pt;
+    }
+    .paragorta
+    {
+        color:black;
+        margin-left: 3%;
+        font-size: 12pt;
+    }
+    .linkparag
+    {
+        color:silver;
+    }
+   
+
+    
     #divtarihce
     {
         width: 100%;
@@ -63,14 +97,32 @@
     }
     .genelyazi
     {
-        font-size: 13pt;
-        text-align: center;
+        font-size: 14pt;
+        margin-left: 2%;
+        margin-right: 1%;
     }
     .yanbaslik
     {
-        font-size: 16pt;
+        font-size: 15pt;
         color: rgb(48, 20, 124);
-        margin-left: 10px; margin-right: auto; margin-top: 25px; margin-bottom: 5px;
+        font-weight: bold;
+        margin-left: 2%;
+    }
+    .imgalt
+    {
+        font-weight: bold;
+        font-size: 13pt;
+        background-color: steelblue;
+        width: 97%;
+        text-align: center;
+    }
+    #altimg
+    {
+        font-weight: bold;
+        font-size: 13pt;
+        background-color: steelblue;
+        width: 94%;
+        text-align: center;
     }
     #divsag
     {
@@ -95,7 +147,58 @@
     {
         text-align: center;
     }
-    
+    #cvfoot
+    {
+        color: azure;
+        font-size: 14pt;
+    }
+    #divfoot
+    {
+        text-align: right;
+    }
+    .cv
+    {
+        color: aquamarine;
+        font-size: 22pt;
+        margin-left: 7%;
+    }
+   
+    .cvtable
+   {
+       margin-left: 7%;
+       color:black;
+       font-weight: bold;
+   }
+   #table
+   {
+    border-color: blue;
+    border-width: 3px;
+    width: 70%;
+    background-color: white;
+   }
+   #td1
+   {
+       text-align: center;
+       color: black;
+       font-size: 32pt;
+   }
+   #td2
+   {
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+}
+  
+    .sutun1
+    {
+        width: 40%;
+    }
+    .sutun2
+    {
+        width: 60%;
+    }
+  
+    </style>
    
 
 </style>
