@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="body">
+<body class="bodywhite">
 
     <div class="container-fluid" id="ust">
         <div class="row">
@@ -28,6 +28,7 @@
                 <hr color="blue">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">HAKKINDA</a></li>
+                    <li class="breadcrumb-item"><a href="ilgi.html">İLGİ ALANLARIM</a></li>
                     <li class="breadcrumb-item"><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
                     <li class="breadcrumb-item"> <a href="iletisim.html">İLETİŞİM</a></li>
                     <li class="breadcrumb-item"><a href="takimim.html">TAKIMIM</a></li>
@@ -43,147 +44,158 @@
             <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12" id="baslik">
                 <h1 style="color: white;"><b>İLETİŞİM</b></h1>
             </div>
+            <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12" id="beyaz">
+                s
+            </div>
         </div>
     </div>
-   
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12" id="bosluk">s</div>
-        </div>
-    </div>
-     
+    
     <div class="container-fluid">
         <div class="row">
                 <div id="iletisim" class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12">
-                <form action="iletisim.php" name="iletisim" method="POST">
-					        <label>*ADI SOYADI :</label>
-                                <input type="text" name="adsoyad" placeholder="Adınızı Giriniz.." size="35"><br>
-                                <label>*E POSTA ADRESİ :</label>
-                                <input type="text" name="mail" placeholder="E Posta Giriniz.."  size="17">
-                                <select name="whatmail">
-                                    <option>@gmail.com</option>
-                                    <option>@hotmail.com</option>
-                                    <option>@outlook.com</option>
-
-                                </select>
-                                <br>
-                                <label>*TELEFON NO :</label>
-                                <input type="text" name="tel" pattern=[0-9]{10} placeholder="10 haneli olacak şekilde giriniz.."  size="35"><br>
-						
-                            <label>*CİNSİYET :</label>
-                                <input type="radio" name="cinsiyet" value="e" checked>ERKEK
-								<input type="radio" name="cinsiyet" value="k">KADIN<br>
-							<label>*BULUNDUĞU İL :</label>
-				
-								<select name="il">
-									<option value="0">&#706;SEÇİNİZ&#707;</option>
-                                    <option value="1">Adana</option>
-                                    <option value="2">Adıyaman</option>
-                                    <option value="3">Afyonkarahisar</option>
-                                    <option value="4">Ağrı</option>
-                                    <option value="5">Amasya</option>
-                                    <option value="6">Ankara</option>
-                                    <option value="7">Antalya</option>
-                                    <option value="8">Artvin</option>
-                                    <option value="9">Aydın</option>
-                                    <option value="10">Balıkesir</option>
-                                    <option value="11">Bilecik</option>
-                                    <option value="12">Bingöl</option>
-                                    <option value="13">Bitlis</option>
-                                    <option value="14">Bolu</option>
-                                    <option value="15">Burdur</option>
-                                    <option value="16">Bursa</option>
-                                    <option value="17">Çanakkale</option>
-                                    <option value="18">Çankırı</option>
-                                    <option value="19">Çorum</option>
-                                    <option value="20">Denizli</option>
-                                    <option value="21">Diyarbakır</option>
-                                    <option value="22">Edirne</option>
-                                    <option value="23">Elazığ</option>
-                                    <option value="24">Erzincan</option>
-                                    <option value="25">Erzurum</option>
-                                    <option value="26">Eskişehir</option>
-                                    <option value="27">Gaziantep</option>
-                                    <option value="28">Giresun</option>
-                                    <option value="29">Gümüşhane</option>
-                                    <option value="30">Hakkâri</option>
-                                    <option value="31">Hatay</option>
-                                    <option value="32">Isparta</option>
-                                    <option value="33">Mersin</option>
-                                    <option value="34">İstanbul</option>
-                                    <option value="35">İzmir</option>
-                                    <option value="36">Kars</option>
-                                    <option value="37">Kastamonu</option>
-                                    <option value="38">Kayseri</option>
-                                    <option value="39">Kırklareli</option>
-                                    <option value="40">Kırşehir</option>
-                                    <option value="41">Kocaeli</option>
-                                    <option value="42">Konya</option>
-                                    <option value="43">Kütahya</option>
-                                    <option value="44">Malatya</option>
-                                    <option value="45">Manisa</option>
-                                    <option value="46">Kahramanmaraş</option>
-                                    <option value="47">Mardin</option>
-                                    <option value="48">Muğla</option>
-                                    <option value="49">Muş</option>
-                                    <option value="50">Nevşehir</option>
-                                    <option value="51">Niğde</option>
-                                    <option value="52">Ordu</option>
-                                    <option value="53">Rize</option>
-                                    <option value="54">Sakarya</option>
-                                    <option value="55">Samsun</option>
-                                    <option value="56">Siirt</option>
-                                    <option value="57">Sinop</option>
-                                    <option value="58">Sivas</option>
-                                    <option value="59">Tekirdağ</option>
-                                    <option value="60">Tokat</option>
-                                    <option value="61">Trabzon</option>
-                                    <option value="62">Tunceli</option>
-                                    <option value="63">Şanlıurfa</option>
-                                    <option value="64">Uşak</option>
-                                    <option value="65">Van</option>
-                                    <option value="66">Yozgat</option>
-                                    <option value="67">Zonguldak</option>
-                                    <option value="68">Aksaray</option>
-                                    <option value="69">Bayburt</option>
-                                    <option value="70">Karaman</option>
-                                    <option value="71">Kırıkkale</option>
-                                    <option value="72">Batman</option>
-                                    <option value="73">Şırnak</option>
-                                    <option value="74">Bartın</option>
-                                    <option value="75">Ardahan</option>
-                                    <option value="76">Iğdır</option>
-                                    <option value="77">Yalova</option>
-                                    <option value="78">Karabük</option>
-                                    <option value="79">Kilis</option>
-                                    <option value="80">Osmaniye</option>
-                                    <option value="81">Düzce</option>
-								</select><br>
-						
-						    	<label>İLGİ ALANLARI :</label><br>
-								<input type="checkbox" name="muzik" value="muzik">MÜZİK<br>
-								<input type="checkbox" name="spor" value="spor">SPOR<br>
-								<input type="checkbox" name="tv" value="tv">TELEVİZYON<br>
-								<input type="checkbox" name="dans" value="dans">DANS<br>
+                    <table border="1" style="background-color: gray; color: white; border-style:dashed; width: 100%;">
+                        <tr>
+                            <td width="20%"></td>
+                            <td>
+                                <form action="iletisim.php" name="iletisim" method="POST">
+                                    <label style="margin-top: 4%;">*ADI SOYADI :</label>
+                                        <input type="text" name="adsoyad" placeholder="Adınızı Giriniz.." size="35"><br>
+                                        <label>*E POSTA ADRESİ :</label>
+                                        <input type="text" name="mail" placeholder="E Posta Giriniz.."  size="17">
+                                        <select name="whatmail">
+                                            <option value="g">@gmail.com</option>
+                                            <option value="h">@hotmail.com</option>
+                                            <option value="o">@outlook.com</option>
+        
+                                        </select>
+                                        <br>
+                                        <label>*TELEFON NO :</label>
+                                        <input type="text" name="tel" pattern=[0-9]{10} placeholder="10 haneli olacak şekilde giriniz.."  size="35"><br>
                                 
-                                <label>*ÜNİVERSİTE :</label>
-								<input type="text" list="universiteler" name="uni">
-								<datalist id="universiteler">
-									<option value="sau">Sakarya Üniversitesi</option>
-									<option value="subu">Sakarya Uyg. Bil. Üniversitesi</option>
-									<option value="kou">Kocaeli Ünivresitesi</option>
-									<option value="itu">İstanbul Teknik Üniversitesi</option>
-								</datalist>
-                                    <br>
-				
-					<input type="submit" value="GÖNDER">
-					<input type="reset" value="TEMİZLE"><br>
-                    <label style="color:springgreen;">(* = gerekli)</label>
-
-				</form>
-                </div>
+                                    <label>*CİNSİYET :</label>
+                                        <input type="radio" name="cinsiyet" value="e" checked>ERKEK
+                                        <input type="radio" name="cinsiyet" value="k">KADIN<br>
+                                    <label>*BULUNDUĞU İL :</label>
+                        
+                                        <select name="il">
+                                            <option value="0">&#706;SEÇİNİZ&#707;</option>
+                                            <option value="1">Adana</option>
+                                            <option value="2">Adıyaman</option>
+                                            <option value="3">Afyonkarahisar</option>
+                                            <option value="4">Ağrı</option>
+                                            <option value="5">Amasya</option>
+                                            <option value="6">Ankara</option>
+                                            <option value="7">Antalya</option>
+                                            <option value="8">Artvin</option>
+                                            <option value="9">Aydın</option>
+                                            <option value="10">Balıkesir</option>
+                                            <option value="11">Bilecik</option>
+                                            <option value="12">Bingöl</option>
+                                            <option value="13">Bitlis</option>
+                                            <option value="14">Bolu</option>
+                                            <option value="15">Burdur</option>
+                                            <option value="16">Bursa</option>
+                                            <option value="17">Çanakkale</option>
+                                            <option value="18">Çankırı</option>
+                                            <option value="19">Çorum</option>
+                                            <option value="20">Denizli</option>
+                                            <option value="21">Diyarbakır</option>
+                                            <option value="22">Edirne</option>
+                                            <option value="23">Elazığ</option>
+                                            <option value="24">Erzincan</option>
+                                            <option value="25">Erzurum</option>
+                                            <option value="26">Eskişehir</option>
+                                            <option value="27">Gaziantep</option>
+                                            <option value="28">Giresun</option>
+                                            <option value="29">Gümüşhane</option>
+                                            <option value="30">Hakkâri</option>
+                                            <option value="31">Hatay</option>
+                                            <option value="32">Isparta</option>
+                                            <option value="33">Mersin</option>
+                                            <option value="34">İstanbul</option>
+                                            <option value="35">İzmir</option>
+                                            <option value="36">Kars</option>
+                                            <option value="37">Kastamonu</option>
+                                            <option value="38">Kayseri</option>
+                                            <option value="39">Kırklareli</option>
+                                            <option value="40">Kırşehir</option>
+                                            <option value="41">Kocaeli</option>
+                                            <option value="42">Konya</option>
+                                            <option value="43">Kütahya</option>
+                                            <option value="44">Malatya</option>
+                                            <option value="45">Manisa</option>
+                                            <option value="46">Kahramanmaraş</option>
+                                            <option value="47">Mardin</option>
+                                            <option value="48">Muğla</option>
+                                            <option value="49">Muş</option>
+                                            <option value="50">Nevşehir</option>
+                                            <option value="51">Niğde</option>
+                                            <option value="52">Ordu</option>
+                                            <option value="53">Rize</option>
+                                            <option value="54">Sakarya</option>
+                                            <option value="55">Samsun</option>
+                                            <option value="56">Siirt</option>
+                                            <option value="57">Sinop</option>
+                                            <option value="58">Sivas</option>
+                                            <option value="59">Tekirdağ</option>
+                                            <option value="60">Tokat</option>
+                                            <option value="61">Trabzon</option>
+                                            <option value="62">Tunceli</option>
+                                            <option value="63">Şanlıurfa</option>
+                                            <option value="64">Uşak</option>
+                                            <option value="65">Van</option>
+                                            <option value="66">Yozgat</option>
+                                            <option value="67">Zonguldak</option>
+                                            <option value="68">Aksaray</option>
+                                            <option value="69">Bayburt</option>
+                                            <option value="70">Karaman</option>
+                                            <option value="71">Kırıkkale</option>
+                                            <option value="72">Batman</option>
+                                            <option value="73">Şırnak</option>
+                                            <option value="74">Bartın</option>
+                                            <option value="75">Ardahan</option>
+                                            <option value="76">Iğdır</option>
+                                            <option value="77">Yalova</option>
+                                            <option value="78">Karabük</option>
+                                            <option value="79">Kilis</option>
+                                            <option value="80">Osmaniye</option>
+                                            <option value="81">Düzce</option>
+                                        </select><br>
+                                
+                                        <label>İLGİ ALANLARI :</label><br>
+                                        <input type="checkbox" name="muzik" value="m">MÜZİK<br>
+                                        <input type="checkbox" name="spor" value="s">SPOR<br>
+                                        <input type="checkbox" name="tv" value="t">TELEVİZYON<br>
+                                        <input type="checkbox" name="dans" value="d">DANS<br>
+                                        
+                                        <label>*ÜNİVERSİTE :</label>
+                                        <input type="text" list="universiteler" name="uni">
+                                        <datalist id="universiteler">
+                                            <option value="sau">Sakarya Üniversitesi</option>
+                                            <option value="subu">Sakarya Uyg. Bil. Üniversitesi</option>
+                                            <option value="kou">Kocaeli Üniversitesi</option>
+                                            <option value="itu">İstanbul Teknik Üniversitesi</option>
+                                            <option value="su">Selçuk Üniversitesi</option>
+                                            <option value="ytü">Yıldız Teknik Üniversitesi</option>
+                                            <option value="esogü">Eskişehir Osmangazi Üniversitesi</option>
+                                            <option value="akdü">Akdeniz Üniversitesi</option>
+                                            <option value="odtü">Ortadoğu Teknik Üniversitesi</option>
+                                            <option value="boün">Boğaziçi Üniversitesi</option>
+                                        </datalist>
+                                            <br>
+                                
+                                    <input type="submit" value="GÖNDER">
+                                    <input type="reset" value="TEMİZLE"><br>
+                                    <label style="color:springgreen;">(* = gerekli)</label>
+                
+                                    </form>
+                        </td>
+                        <td width="20%"></td>
+                    </tr>
+                </table>
             </div>
         </div>
+    </div>
 
         <script>
             "use strict";
@@ -209,9 +221,9 @@
                     }
                     
                 }
-            </script>
+        </script>
               
-				
+        
 			
 	
 </body>
