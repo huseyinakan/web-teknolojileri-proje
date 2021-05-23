@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>My Page</title>
+<title>iletisim</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" type="text/css" href="css/style.css">        
@@ -29,11 +29,13 @@
             <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12" id="links">
                 <hr color="blue">
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">HAKKINDA</a></li>
-                    <li class="breadcrumb-item"><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">HAKKIMDA</a></li>
+                    <li class="breadcrumb-item"><a href="ozgecmis.html">ÖZGEÇMİŞİM</a></li>
                     <li class="breadcrumb-item"> <a href="iletisim.html">İLETİŞİM</a></li>
                     <li class="breadcrumb-item"><a href="takimim.html">TAKIMIM</a></li>
                     <li class="breadcrumb-item"><a href="sehrim.html">ŞEHRİM</a></li>
+                    <li class="breadcrumb-item"><a href="login.html">ÇIKIŞ</a></li>
+
                 </ul>
                 <hr color="blue">
             </div>
