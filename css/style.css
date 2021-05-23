@@ -22,10 +22,7 @@
     {
         background-color: gray;
     }
-    #bodyteam
-    {
-        background-color: rgb(204, 204, 204);
-    }
+    
    
     a
     { 
@@ -45,11 +42,32 @@
     {
         width: 100%;
         text-align: center;
+        
     }
+    #slider {
+        width:100%;
+        font: 19px sans-serif;
+        overflow:hidden;
+        
+    }
+    
+    #kontrol {
+        color: gray;
+    }
+    
+    #kontrol a {
+        
+        color:white;
+        background: rgba(0,0,0,0.5);
+        padding:10px;
+        text-decoration:none;
+    }
+    
     #backlink
     {
         background-color:lightsteelblue;
     }
+    
     #links
     {
         width: 100%;
@@ -59,6 +77,10 @@
     {
         background-color: gray;
         color: gray;
+    }
+    .bodywhite
+    {
+        background-color: rgb(204, 204, 204);
     }
     #beyaz
     {
@@ -81,7 +103,29 @@
     {
         color:silver;
     }
-   
+   .graytable
+   {
+    border: 0;
+    background-color: gray;
+    border-style:dashed;
+    width: 100%;
+   }
+   #graydiv
+   {
+    background-color: gray;
+    text-align: center;
+
+   }
+   #graydiv2
+   {
+    background-color: gray;
+
+   }
+   #graydiv3
+   {
+    background-color: gray;
+
+   }
 
     
     #divtarihce
@@ -149,7 +193,7 @@
     }
     #cvfoot
     {
-        color: azure;
+        color: rgba(34, 12, 12, 0.767);
         font-size: 14pt;
     }
     #divfoot
@@ -175,6 +219,15 @@
     border-width: 3px;
     width: 70%;
     background-color: white;
+   }
+   #tablehatay
+   {
+    border-color: blue;
+    border-width: 1px;
+    width: 100%;
+    background-color: rgb(229, 226, 226);
+    border: 1;
+    border-style: solid;
    }
    #td1
    {
