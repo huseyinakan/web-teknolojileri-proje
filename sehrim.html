@@ -29,7 +29,7 @@
             <div class="col-sm-12 col-12 col-md-12 col-lg-12 col-xl-12" id="links">
                 <hr color="blue">
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">HAKKIMDA</a></li>
+                    <li class="breadcrumb-item"><a href="hakkinda.html">HAKKIMDA</a></li>
                     <li class="breadcrumb-item"><a href="ozgecmis.html">ÖZGEÇMİŞİM</a></li>
                     <li class="breadcrumb-item"> <a href="iletisim.html">İLETİŞİM</a></li>
                     <li class="breadcrumb-item"><a href="takimim.html">TAKIMIM</a></li>
